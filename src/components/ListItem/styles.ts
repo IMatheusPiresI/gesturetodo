@@ -14,7 +14,12 @@ export const AnimatedView = styled(Animated.View)`
   justify-content: center;
 `;
 
-export const Title = styled.Text``;
+export const Title = styled.Text`
+  font-size: 16px;
+  width: 100%;
+  padding: 0 20px;
+  color: #0008;
+`;
 
 export const IconContainer = styled(Animated.View)`
   width: 55px;

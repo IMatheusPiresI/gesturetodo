@@ -39,7 +39,7 @@ export const Title = styled.Text`
   font-size: 38px;
   width: 100%;
   padding: 0 20px;
-  color: #0007;
+  color: #0008;
 `;
 
 export const ButtonTitle = styled.Text`

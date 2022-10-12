@@ -29,7 +29,7 @@ type ListItemProps = {
 export const ListItem: React.FC<ListItemProps> = ({task, onDismiss}) => {
   const translateX = useSharedValue(0);
   const animationInit = useSharedValue(130);
-  const itemHeight = useSharedValue(65);
+  const itemHeight = useSharedValue(75);
   const {width} = Dimensions.get('window');
   const TRANSLATE_X_TRASHOLD = -width * 0.3;
 
@@ -90,7 +90,7 @@ export const ListItem: React.FC<ListItemProps> = ({task, onDismiss}) => {
         </S.AnimatedView>
       </PanGestureHandler>
       <S.IconContainer style={reanimatedIconContainerStyle}>
-        <IconFontAwesome5 name="trash-alt" size={60 * 0.4} color={'red'} />
+        <IconFontAwesome5 name="trash-alt" size={70 * 0.4} color={'red'} />
       </S.IconContainer>
     </S.Container>
   );
