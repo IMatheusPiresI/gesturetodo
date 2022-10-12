@@ -16,7 +16,7 @@ Repositório do projeto **GestureTodo** desenvolvido para aprofundar os conhecim
 
 ◽ Clonar o repositório ultilizando Git Bash + o comando:
 
-       $ git clone https://github.com/IMatheusPiresI/gofinances.git
+       $ git clone https://github.com/IMatheusPiresI/gesturetodo.git
 
 ◽ Acessar a pasta to-ducks-tasks e executar o comando <br>
 
